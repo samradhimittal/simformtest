@@ -1,8 +1,9 @@
-Setup a DB and .env
-```shell
+Setup Steps
+
 replace .env.example with your database credentials
+
 In the root of you project run:
-```shell
+
 $ composer install
 $ php artisan key:generate
 $ php artisan migrate
